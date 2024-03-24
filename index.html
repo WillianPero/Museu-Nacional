@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Museo Nacional</title>
+    <meta charset="UTF-8">
+
+    <!-- Normalize Css -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!-- Estilo Customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/
+    libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div id="container"><!--inicio container-->
+
+        <header><!-- Inicio header-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav><!-- Inicio nav-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+    
+            </nav><!-- Fim nav-->
+
+        </header><!-- fim header -->
+
+        <div id="principal"><!-- inicio Principal -->
+
+            <div id="conteudo"><!-- inicio conteudo -->
+                <section id="capa">
+                <img src="imagens/museu.png">
+                </section>
+
+                <section id="postagem">
+                    <article id="video">
+                        <h3>Video:Conheça o Museo</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/y6Dyhi-MVag?si=QxaUsEQLSAmf1GAp" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa:Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.1223619291636!2d-73.97860162386819!3d40.78132400813754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f4b00f7a09%3A0xa27d8172624c5db1!2sMuseu%20Americano%20de%20Hist%C3%B3ria%20Natural!5e0!3m2!1spt-BR!2sbr!4v1711236919553!5m2!1spt-BR!2sbr" 
+                        width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os assustadores Insetos</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">Animais Historicos</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">Homens da Caverna</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">Diamantes de Todo Mundo</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#"><strog>Veja Todos (65)</strog></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 Anos de História</h3>
+                        <p>
+                            O Museu Americano de História Natural (em inglês American Museum of Natural History) é um museu dos Estados Unidos,
+                            localizado em Nova Iorque e fundado em 1869. É especialmente reconhecido pela sua vasta coleção de fósseis, 
+                            incluindo de espécies de Dinossauros. Uma das grandes atrações do museu é uma coleção de esqueletos de dinossauro, com mais de 30 milhões de fósseis e 
+                            artefatos espalhados por 42 salas de exibição. Um T-Rex de aproximadamente 15 metros e dá as boas-vindas aos visitantes na entrada.
+                        </p>
+                        <a href=""><strong>Leia Mais</strong></a>
+                    </article>
+
+                </section>
+
+            </div><!-- fim conteudo -->
+
+            <aside><!-- inicio aside -->
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png">
+                </section>
+
+                <section id="visita"><!-- inicio Visita -->
+                    <h4>Faça uma Visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione Uma Data</legend>
+
+                            <Label for="data">Data</Label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <Label for="qtd">QTD Pessoas</Label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">  
+                            
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+
+                </section><!-- Fim Visita -->
+
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" height="93" width="93">
+                    </a>
+                    
+
+                </section>
+
+            </aside><!-- fim aside -->
+
+            <footer>
+                <p>
+                    <a href="#">Home</a>
+                    <a href="#">Exposição</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervos</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contatos</a>
+                 </p>
+
+                 <p>
+                    2024 <a href="#">Museu Nacionnal</a> - Todos os Direitos Reservados.
+                 </p>
+
+            </footer>
+
+        </div><!-- fim Principal -->
+
+    </div><!--fim container-->
+    
+</body>
+</html>
